@@ -1,0 +1,91 @@
+.wather{
+	/*display: block;*/
+	flex-direction: row;
+	box-sizing: border-box;
+	font-family: 'Modak', cursive;
+	/*visibility: hidden;*/
+	min-width: 200px;
+	min-height: 300px;
+	/*border: 3px solid black;*/
+	border-radius: 7px;
+	margin: 10px;
+	padding: 4px;
+	float: left;
+	background: linear-gradient(to top left, powderblue, pink);
+	
+
+}
+.wather:hover{
+
+	transition: all ease 0.3s;
+	transform: translate3d(0, -10px, 0);
+}
+
+
+.add_city{
+	width: 200px;
+	height: 300px;
+	box-sizing: border-box;
+	border-radius: 7px;
+	border: 3px solid black;
+	display: block;
+	position: related;
+
+}
+
+
+.ad{
+	font-size: 100px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-top: 50%;
+	box-sizing: border-box;
+}
+
+
+.inp, .bt, .add{
+	display: block;
+	margin: 10px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	font-size: 16px;
+	max-width: 300px;
+	transition: all ease 1s;
+	/*box-sizing: border-box;*/
+}
+
+
+.city-name{
+	text-align: center;
+	font-size: 50px;
+	/*font-family: 'Syne Mono', monospace;*/
+	margin-top: 10px;
+}
+
+.gradus{
+	text-align: center;
+	margin: 5px;
+	font-size: 80px;
+	/*font-family: 'Syne Mono', monospace;*/
+}
+
+.params{
+	margin-top: 0;
+	flex-direction: row;
+	/*text-align: center;*/
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+	height: 50px;
+	padding-right: 10px;
+	/*position: absolute;*/
+}
+
+.description{
+	/*font-family: 'Syne Mono', monospace;*/
+	font-size: 20px;
+	text-align: center;
+}
+
+
